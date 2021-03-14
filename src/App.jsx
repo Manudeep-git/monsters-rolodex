@@ -27,7 +27,7 @@ class App extends React.Component{
       }
         
       handleChange = async(e) => {
-          console.log("Handle Change called")
+          //console.log("Handle Change called")
           try{
           await this.setState({
             queryString: e.target.value
